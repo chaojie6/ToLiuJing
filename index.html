@@ -666,7 +666,6 @@
             </div>
 
             <div class="menu__header">设置</div>
-            <!--<div class="menu__subheader"><br>微信公众号：期待晨光-->
             <!--</div>-->
             <form>
               <div class="form-option form-option--select">
@@ -1534,7 +1533,7 @@
     </script>
     <script type="text/javascript">
       window.onhashchange = function () {
-        jp();
+        // jp();
       };
 
       function hh() {
@@ -1545,17 +1544,6 @@
         );
       }
 
-      function jp() {
-        var a = document.createElement("a");
-        a.setAttribute("rel", "noreferrer");
-        a.setAttribute(
-          "href",
-          "https://mp.weixin.qq.com/s/my3ZmuPktbfpw2txYgrubA"
-        );
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-      }
 
       window.onload = function () {
         setTimeout("hh();", 100);
